@@ -1,0 +1,7 @@
+/utils/node_modules
+/browser/node_modules
+/fightClubNoir/prover.toml
+/fightClubNoir/proofs
+/fightClubNoir/verifier.toml
+/fightClubNoir/target
+/browser/.next
