@@ -1,11 +1,8 @@
-fn main(x: Field, y: pub Field) {
-    assert(x != y);
-}
-
-#[test]
-fn test_main() {
-    main(1, 2);
-
-    // Uncomment to make test fail
-    // main(1, 1);
+fn main() {
+    let message = "hello world";
+    let message_bytes = message.as_bytes();
+    let mut message_vec = message.as_bytes_vec();
+    assert(message_bytes.len() == 11);
+    assert(message_bytes[0] == 104);
+    assert(message_bytes[0] == message_vec.get(0));
 }
